@@ -1,0 +1,127 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+ul{
+    margin: 0px 180px;
+    padding: 10px;
+    list-style: none;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    margin:20px ;
+    font-weight: 700;
+    font-size: large;
+}
+
+.name-highlight{
+    color: #FF8367;
+}
+h1{
+    font-size: 80px;
+}
+p{
+    font-size: 18px;
+}
+.link-button{
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(#F46060, #FC7762);
+    padding: 15px 50px;
+    border-radius: 5px;
+    color: white;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+
+}
+.half-width img{
+    width:60%;
+}
+section.main{
+    margin-top:50px;
+    margin-bottom: 80px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.link-button-2{
+    text-decoration: none;
+    background-image: linear-gradient(#F46060, #FC7762);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+
+}
+h2{
+    font-size: 50px;
+}
+
+.services{
+    background: #e6e6e6;
+    padding:50px 45px 150px 45px;
+}
+.intro{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.services-boxes{
+    width:100%;
+    overflow: hidden;
+    text-align: center;
+}
+.service-box{
+    max-width: 25%;
+    height: auto;
+   display: inline-block;
+    background: #ffffff;
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.service-box p{
+    width: 80%;
+    margin:0px auto;
+}
+.service-box img{
+    width:400px;
+    height: auto;
+}
+
+section.contact{
+    background:#ffffff;
+    padding:50px;
+}
+.work-content {
+    background-image: url(images/contact-bg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    /* align-content: center; */
+    margin: 0px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 100px 30px;
+}
+h3{
+    font-size: 20px;
+}
+.icon-text {
+    text-align: center;
+
+}
+.icon-img img{
+    float: left;
+    margin: 10px;
+    width: 45px;
+    height: 45px; 
+}
+.icon-img{
+    margin-left: 45%;
+}
